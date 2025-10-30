@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px;text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background:#e9f5eb ;
+    padding: 10px;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+    margin: 2%;
+    font-weight: 600;
+}
+nav a:hover{
+    color: #4CAF50;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f3f9f5;
+    font-family: Arial, sans-serif;
+    
+
+}
+
+.container img{
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.text{
+    max-width: 500px;
+    color: 2b3a2b;
+}
+
+.text h1{
+    color: #204a2e;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.text ul{
+    list-style-type: disc;
+    margin-left: 1.5;
+    line-height: 1.6;
+}
+
+h1,h2{
+    color: #2f6d31;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #4CAF50;
+    color: white;
+    margin-top: 2rem;
+}
+
+.quote{
+    font-style: italic;
+    color: #555;
+    margin: 1rem;
+}
+
+@media(max-width: 992px){
+    .text{
+        font-size: 16px;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
